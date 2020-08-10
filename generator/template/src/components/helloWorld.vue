@@ -10,8 +10,8 @@
     <ul class="imp-hello__list">
       <li class="imp-hello__item"><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
       <li class="imp-hello__item"><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-      <li class="imp-hello__item"><a href="https://www.npmjs.com/package/@alife%2Fvue-cli-plugin-stylelint" target="_blank" rel="noopener">stylelint</a></li>
-      <li class="imp-hello__item"><a href="git@gitlab.alibaba-inc.com:front_web/vue-cli-create-preset.git" target="_blank" rel="noopener">/Users/xierenhong/work/front_web/vue-cli-create-preset</a></li>
+      <li class="imp-hello__item"><a href="https://www.npmjs.com/package/123fe%2Fvue-cli-plugin-stylelint" target="_blank" rel="noopener">stylelint</a></li>
+      <li class="imp-hello__item"><a href="git@gitlab.123123-inc.com:front_web/vue-cli-create-preset.git" target="_blank" rel="noopener">/Users/xierenhong/work/front_web/vue-cli-create-preset</a></li>
     </ul>
     <h3 class="imp-hello__subtitle">Essential Links</h3>
     <ul>
