@@ -1,0 +1,14 @@
+{
+    "name": "vue-cli-create-preset",
+    "version": "0.0.1",
+    "description": "> vue cli 创建预设配置",
+    "main": "preset.json",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:MEDIOCAL/vue-cli-create-preset.git"
+    },
+    "license": "ISC"
+  }
