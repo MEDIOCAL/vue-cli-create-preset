@@ -8,7 +8,7 @@
             "lintOn": ["save", "commit"]
         },
         "vue-cli-plugin-xm": {
-            "version": "^0.0.9",
+            "version": "^0.0.10",
             "prompts": true
         }
     }
