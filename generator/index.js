@@ -20,9 +20,12 @@ module.exports = (api, options, rootOptions) => {
                 extends: [],
                 rules: {
                     indent: ['error', INDENT],
-                    'vue/html-indent': ['error', INDENT, {
-                        ignores: []
-                    }]
+                    'vue/html-indent': [
+                        'error',
+                        INDENT, {
+                            ignores: []
+                        }
+                    ]
                 },
                 parserOptions: {
                     parser: 'babel-eslint'
@@ -33,14 +36,14 @@ module.exports = (api, options, rootOptions) => {
                         rules: {
                             indent: 'off',
                             'vue/script-indent': ['error', INDENT, {
-                                baseIndent: 1,
-                                switchCase: 1,
-                                ignores: []
+                            baseIndent: 1,
+                            switchCase: 1,
+                            ignores: []
                             }]
                         }
                     }
                 ]
-        }
+            }
         };
     });
 };
