@@ -36,9 +36,9 @@ module.exports = (api, options, rootOptions) => {
                         rules: {
                             indent: 'off',
                             'vue/script-indent': ['error', INDENT, {
-                            baseIndent: 1,
-                            switchCase: 1,
-                            ignores: []
+                                baseIndent: 1,
+                                switchCase: 1,
+                                ignores: []
                             }]
                         }
                     }
