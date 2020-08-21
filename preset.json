@@ -7,6 +7,12 @@
             "config": "standard",
             "lintOn": ["save", "commit"]
         },
+        "vue-cli-plugin-xm-stylelint": {
+            "version": "^0.0.1"
+          },
+        "vue-cli-plugin-xm-sassglobal": {
+            "version": "^0.0.1"
+        },
         "vue-cli-plugin-xm": {
             "version": "^0.0.10",
             "prompts": true

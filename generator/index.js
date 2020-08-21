@@ -1,11 +1,11 @@
 module.exports = (api, options, rootOptions) => {
     api.render('./template', rootOptions);
   
-    // api.extendPackage({
-    //     devDependencies: {
-    //         'eslint-config-xm': '^0.0.1'
-    //     }
-    // });
+    api.extendPackage({
+        devDependencies: {
+            'eslint-config-xm': '^0.0.1'
+        }
+    });
   
     // 处理eslint 配置为自己的eslint 配置
     api.extendPackage(pkg => {
@@ -17,7 +17,7 @@ module.exports = (api, options, rootOptions) => {
             eslintConfig: {
                 root: true,
                 env: { node: true },
-                extends: [],
+                extends: ["xm"],
                 rules: {
                     indent: ['error', INDENT],
                     'vue/html-indent': [
