@@ -14,7 +14,7 @@
             "version": "^0.0.2"
         },
         "vue-cli-plugin-xm": {
-            "version": "^0.0.11",
+            "version": "^0.0.12",
             "prompts": true
         },
         "vue-cli-plugin-xm-mock": {
