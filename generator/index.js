@@ -3,7 +3,7 @@ module.exports = (api, options, rootOptions) => {
   
     api.extendPackage({
         devDependencies: {
-            'eslint-config-xm': '^0.0.1'
+            'eslint-config-esxm': '^0.0.1'
         }
     });
   
@@ -17,7 +17,7 @@ module.exports = (api, options, rootOptions) => {
             eslintConfig: {
                 root: true,
                 env: { node: true },
-                extends: ["xm"],
+                extends: ["esxm"],
                 rules: {
                     indent: ['error', INDENT],
                     'vue/html-indent': [
